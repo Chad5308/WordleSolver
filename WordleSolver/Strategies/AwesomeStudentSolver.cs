@@ -102,7 +102,7 @@ namespace WordleSolver.Strategies
             if (previousResult.GuessNumber == 0)
             {
                 // Always start with a pre-determined strong opening word.
-                return "arose";
+                return "audio";
             }
 
             // For subsequent guesses, filter the list of _remainingWords based on the feedback.
