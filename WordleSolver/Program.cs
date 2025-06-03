@@ -21,4 +21,4 @@ var host = Host.CreateDefaultBuilder()
     .Build();
 
 var runner = host.Services.GetRequiredService<StudentGuesserService>();
-runner.Run(1000);
+runner.Run(5000);
